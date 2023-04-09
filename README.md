@@ -1,6 +1,9 @@
-# My collection of various scripts.
+# Various scripts:
 
-Download repo and make scripts executable:
+- [myip.cin.sh](myip.cin.sh): Show current internet IPv4 and IPv6 by using the API from: [www.geojs.io](https://www.geojs.io)
+- [dot_countdown.cin.sh](dot_countdown.cin.sh): Countdown function with dots.
+
+# Download repo and make scripts executable:
 ```shell
 git clone https://github.com/Cin-Hub/cinscripts.git && \
 chmod 750 *.cin.sh
@@ -46,8 +49,3 @@ chmod 750 ~/git/cinscripts/*.cin.sh && \
 cp ~/git/cinscripts/*.cin.sh ~/bin && \
 rm -r ~/git/cinscripts
 ```  
-
-# Index of scripts:  
-
-- [myip.cin.sh](myip.cin.sh): Show current internet IPv4 and IPv6 by using the API from: [www.geojs.io](https://www.geojs.io)
-- [dot_countdown.cin.sh](dot_countdown.cin.sh): Countdown function with dots.
