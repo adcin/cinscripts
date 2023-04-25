@@ -1,14 +1,16 @@
 #!/bin/bash
 
-# Present hosts from ssh config file in a handy menu
-SSH_CONFIG_LOCATION="$HOME/.ssh/config"
-
+# Presents hosts from ssh config file in a handy menu
+#
+# If you want to use it like other commands, you can add an allias
+# to your shell config, or rename the script and move it to /usr/bin/
+# example command: sudo mv ssh.cin.sh /usr/bin/my_ssh
 
 # Read hosts from config file and add a QUIT option to array
-CONFIG_HOSTS=($(awk '/^Host/ && !/*/ {print $2}' $SSH_CONFIG_LOCATION) "QUIT")
+CONFIG_HOSTS=($(awk '/^Host/ && !/*/ {print $2}' $HOME/.ssh/config) "QUIT")
 
 echo
-PS3="Choose ssh destination: "
+PS3="  Choose ssh destination: "
 select CHOICE in "${CONFIG_HOSTS[@]}"
 do
 	[[ -n $CHOICE ]] || { echo "  Invalid choice. Please try again." >&2; continue; }
