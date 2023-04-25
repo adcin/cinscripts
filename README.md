@@ -2,6 +2,7 @@
 
 - [myip.cin.sh](myip.cin.sh): Show current internet IPv4 and IPv6 by using the API from: [www.geojs.io](https://www.geojs.io)
 - [dot_countdown.cin.sh](dot_countdown.cin.sh): Countdown function with dots.
+- [ssh.cin.sh](ssh.cin.sh): Presents hosts from ssh config file in a handy menu.
 
 # Download repo and make scripts executable:
 ```shell
