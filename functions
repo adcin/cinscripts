@@ -1,0 +1,11 @@
+# run_scripts() - runs all executable files in the directory from 
+# the first argument ($1). Non executables are being scipped.
+# Example: run_scripts /path/to/script/folder
+
+run_scripts()
+{
+    for script in $1/*; do
+        [ -x "$script" ] || continue
+        . $script
+    done
+}
