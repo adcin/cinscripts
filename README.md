@@ -4,6 +4,7 @@
 - [dot_countdown.cin.sh](dot_countdown.cin.sh): Countdown function with dots.
 - [ssh.cin.sh](ssh.cin.sh): Presents hosts from ssh config file in a handy menu.
 - [spinner.sh](spinner.sh): An infinite spinner function.
+- [run_scripts](run_scripts): Executes all executables in a directory and skips non executables.
 
 # Download repo and make scripts executable:
 ```shell
