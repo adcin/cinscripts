@@ -5,6 +5,7 @@
 - [ssh.cin.sh](ssh.cin.sh): Presents hosts from ssh config file in a handy menu.
 - [spinner.sh](spinner.sh): An infinite spinner function.
 - [run_scripts](run_scripts): Executes all executables in a directory and skips non executables.
+- [get_user.sh](get_user.sh): Different methods to get the current users name in a script.
 
 # Download repo and make scripts executable:
 ```shell
