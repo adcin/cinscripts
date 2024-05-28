@@ -6,6 +6,7 @@
 - [spinner.sh](spinner.sh): An infinite spinner function.
 - [run_scripts](run_scripts): Executes all executables in a directory and skips non executables.
 - [get_user.sh](get_user.sh): Different methods to get the current users name in a script.
+- Also check out my Gist: [https://gist.github.com/Cin-Hub](https://gist.github.com/Cin-Hub)
 
 # Download repo and make scripts executable:
 ```shell
