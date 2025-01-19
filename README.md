@@ -6,11 +6,11 @@
 - [spinner.sh](spinner.sh): An infinite spinner function.
 - [run_scripts](run_scripts): Executes all executables in a directory and skips non executables.
 - [get_user.sh](get_user.sh): Different methods to get the current users name in a script.
-- Also check out my Gist: [https://gist.github.com/Cin-Hub](https://gist.github.com/Cin-Hub)
+- Also check out my Gist: [https://gist.github.com/adcin](https://gist.github.com/adcin)
 
 # Download repo and make scripts executable:
 ```shell
-git clone https://github.com/Cin-Hub/cinscripts.git && \
+git clone https://github.com/adcin/cinscripts.git && \
 chmod 750 *.cin.sh
 ```  
 
@@ -33,7 +33,7 @@ _To activate the changes in PATH, you should relog._
 
 **2. Clone the repository**  
 ```bash
-git clone https://github.com/Cin-Hub/cinscripts.git ~/git/cinscripts
+git clone https://github.com/adcin/cinscripts.git ~/git/cinscripts
 ```  
 **3. Make scripts executable**  
 ```bash
@@ -49,7 +49,7 @@ rm -r ~/git/cinscripts
 ```  
 **Steps 2-5 in one command:**  
 ```bash
-git clone https://github.com/Cin-Hub/cinscripts.git ~/git/cinscripts && \
+git clone https://github.com/adcin/cinscripts.git ~/git/cinscripts && \
 chmod 750 ~/git/cinscripts/*.cin.sh && \
 cp ~/git/cinscripts/*.cin.sh ~/bin && \
 rm -r ~/git/cinscripts
